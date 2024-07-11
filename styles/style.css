@@ -1,0 +1,53 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+.header-container {
+    width: 100%;
+    float: left;
+    background: #18572A;
+    height: 300px;
+    border-bottom: 4px solid #024014;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 42px rgba(0, 30, 0, 0.5) inset;
+    border-top: 4px solid #024014;
+    border: 2px solid red;
+    
+}
+.header-content{
+    
+    width: 50%;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 2px solid black;
+}
+.logoAndname>img{
+    height: 200px;
+    width: 200px;
+    display: block;
+    background-color: white;
+}
+.logoAndname>h3{
+   
+    
+    font-size: 90px;
+    font-family: "Wittgenstein", serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: normal;
+  color: white;
+
+
+}
+.logoAndname{
+    display: flex;
+    gap:20px
+    
+}
+.header-content-upper{
+    display: flex;
+    justify-content: space-between;
+
+}
