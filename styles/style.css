@@ -1,105 +1,279 @@
 *{
-   box-sizing: border-box;
-   max-width: 100%;
-   margin: 0;
-   padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-}
-.header-container {
-    max-width: 100%;
-  
-    background-color: #175629;
-    height: 280px;
-    border-bottom: 4px solid #024014;
-  
-    box-shadow: 0 8px 42px rgba(0, 30, 0, 0.5) inset;
-    border-top: 4px solid #024014;
-    /* border: 2px solid red; */
-    
-}
-.header-content{
-    
-    width: 80%;
-    height: 200px;
-    
-    
-    margin: 0 auto;
-    
-    margin-top: 20px;
 
-    /* border: 2px solid black; */
-}
-.search-bar > input{
-    width: 400px;
-    height: 50px;
-    /* border: 2px solid red; */
-    margin-top: 70px;
-    padding-left: 30px;
-    font-family: "Wittgenstein", serif;
-    color: white;
-    font-size: 20px;
-    font-weight: 700px;
-    outline: 0;
+    .content-container{
+        width: 90%;
+        margin: 0 auto;
     
-
-}
-.logoAndname >img{
-    height: 200px;
-    width: 200px;
-    display: block;
-    background-color: white;
-}
-.logoAndname>h3{
+        
+    }
+    .header-container{
+        width: 100%;
+        /* margin: 0 auto; */
+        /* background-color: #025898; */
+        background-color: rgb(202, 198, 198);
+        /* border: 2px solid red; */
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin: 0;
+    }
+    .nav-left{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .nav-left >img{
+        width: 100px;
+        height: 100px;
+    }
+    .elevate-english-academy{
+        text-align: center;
+        color: #025898;
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    .menu >a{
+        text-decoration: none;
+        /* color: white; */
+        /* color: black; */
+        font-size: 1.25rem;
+    }
    
+    .nav-container{
+       
+        display: flex;
+        align-items: center;
+
+        /* padding-top: 10px; */
+        background-color: rgb(202, 198, 198);
+        /* padding-bottom: 10px; */
     
-    font-size: 60px;
-    font-family: "Wittgenstein", serif;
-  /* font-optical-sizing: auto; */
-  font-weight: 800px;
-  /* font-style: normal; */
-  color: white;
-  text-align: center;
+    }
+    .menu{
+
+        box-sizing: border-box;
+       
+
+        display: flex;
+        /* justify-content: space-around; */
+        gap: 100px;
+       
+        width: 90%;
+        width: 60%;
+        margin: 0 auto;
+        /* margin-top: 20px; */
+        border-radius: 16px;
+        /* border: 2px solid #025898; */
+        padding-left: 10px;
+        
+    }
+    .banner-container{
+        display: grid;
+        grid-template-columns: 20% 80%;
+        /* padding-left: 10px; */
+    }
+    .banner-left-menu{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    .about-elevate{
+        padding:10px;
+    }
+    .banner-right-slide-action-container >img{
+        width: 100%;
+        height: 100%;
+    }
+    .photo-gallery-container>img{
+        width: 100%;
+        height: 100%;
+    }
+    /* .slide-bar-container{
+       
+    } */
+    .our-mission-container{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #025898;
+        
+    }
+    .mission-image-container{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:10px;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: rgba(112, 104, 104, 0.249);
+        
+       
+    }
+    .mission-image-container >img{
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+    }
+    .mission-h3{
+        font-size: 2rem;
+        font-weight: 600;
+       
+    }
+    .footer-icon-container{
+        display: flex;
+        gap: 30px;
+    }
+    .footer-container{
+        /* margin-top: 20px; */
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        background-color:rgb(34,34,34);
+        padding: 20px;
+    }
+    .footer-right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        gap:10px;
+    }
+    .paikgacha{
+        /* margin-left: 80px; */
+        color: white;
+        font-size: 1.3rem;
+    }
+    /* .footer-bg{
+        width: 90%;
+        margin: 0 auto;
+        background-color:rgb(34,34,34);
+    } */
+   
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-left: 30px;
+    }
+    .contact-us-h3{
+        font-size: 2rem;
+    }
+    .footer-icon-container img{
+        width: 40px;
+        height: 40px;
+    }
+    .footer-container{
+        display: grid;
+      
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 70% 30%;
+
+    }
+    .footer-left{
+        display: grid;
+      
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 30% 70%;
+
+        align-items: center;
+     
+        
+    }
+    a{
+        text-decoration: none;
+    }
+    .part2 > a{
+        color: white;
+        font-size: 1.20rem;
+    }
+
+    .google-map{
+
+        width: 100%;
+        height: 100%;
+        
+        /* height: 50%; */
+        /* display: flex;
+        gap: 20px; */
+        /* border: 2px solid red; */
+        border: 2px solid red;
+    }
+  
+    .course{
+        display: flex;
+        align-items: center;
+        /* border: 1px solid gray; */
+    }
+    .course >img{
+
+        width: 100px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    .admission-container{
+        border: 2px solid gray;
+        background-color: rgba(220, 204, 204, 0.367);
+    }
+    .notice-container{
+        border: 2px solid gray;
+        background-color: rgba(220, 204, 204, 0.367);
+    }
+    .photo-gallery-container{
+        background-color: rgba(220, 204, 204, 0.367);
+    }
+    .about-container{
+        border: 2px solid gray;
+        background-color: rgba(220, 204, 204, 0.367);
+    }
+    .mark{
+        /* background-color: white; */
+        color: #025898;
+        /* color: red; */
+        border-radius: 16px;
+    }
+    .menubar{
+        display: none;
+    }
+
+    @media screen and (max-width: 576px) {
+
+        .nav-container{
+            display: flex;
+            justify-content: stretch;
+            gap: 40px;
+        }
+       .nav-left >h3{
+        display: none;
+       }
+       .footer-container{
+        /* display: grid; */
+      
+        grid-template-columns: 1fr;
+
+      }
+      .logo{
+        /* width: 100px;
+        height: 100px; */
+        margin-left: 0;
+       }
+       .paikgacha{
+        font-size: 1rem;
+       }
+
+        
+    }
+
+    
 
 
-}
-.logoAndname{
-    display: flex;
-    gap:30px
-    
-}
-.header-content-upper{
-    display: flex;
-    justify-content: space-between;
 
-}
-.main-container{
-    height: 1400px;
-    max-width: 100%;
-    background-color: bisque;
-}
-.header-content-lower{
-    background: #00320F;
-    /* border: 2px solid salmon; */
-    
-    margin-top: 5px;
-    /* box-shadow: 10 10 black; */
 
-}
-.nav-container a{
-    font-size: 20px;
-    font-family: "Wittgenstein", serif;
-
-  font-weight: 200px;
-
-  color: white;
-  text-align: center;
-  text-decoration: none;
-}
-.nav-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    
-    
-    
-}
