@@ -16,15 +16,20 @@
         /* margin: 0 auto; */
         /* background-color: #025898; */
         background-color: rgb(202, 198, 198);
+        /* background-color: #025898; */
+        /* color: white; */
         /* border: 2px solid red; */
         padding-top: 10px;
         padding-bottom: 10px;
         margin: 0;
+        border: 2px solid #025898;
     }
     .nav-left{
         display: flex;
         align-items: center;
         gap: 10px;
+        
+        
     }
     .nav-left >img{
         width: 100px;
@@ -41,6 +46,7 @@
         /* color: white; */
         /* color: black; */
         font-size: 1.25rem;
+        /* color: red; */
     }
    
     .nav-container{
@@ -50,6 +56,8 @@
 
         /* padding-top: 10px; */
         background-color: rgb(202, 198, 198);
+        /* background-color: #025898; */
+        /* color: white; */
         /* padding-bottom: 10px; */
     
     }
@@ -69,8 +77,13 @@
         border-radius: 16px;
         /* border: 2px solid #025898; */
         padding-left: 10px;
+        /* color: white; */
+        
+        
         
     }
+   
+   
     .banner-container{
         display: grid;
         grid-template-columns: 20% 80%;
@@ -80,11 +93,12 @@
         background-color: white;
         display: flex;
         flex-direction: column;
-        gap:10px;
-        margin-top: 20px;
+        /* gap:10px; */
+        /* margin-top: 20px; */
         margin-bottom: 20px;
-        padding-left: 20px;
+        /* padding-left: 20px; */
     }
+    
     .about-elevate{
         padding:10px;
     }
@@ -243,6 +257,60 @@
     .menubar{
         display: none;
     }
+    .elevate-director-container{
+        border: 2px solid gray;
+        background-color: rgba(220, 204, 204, 0.367);
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+  
+    .director-image{
+        width: 100%;
+        height: 100%;
+    }
+    .elevate-flag{
+        background-color: #025898 ;
+    }
+    
+    .director-menu {
+        border: 1px solid gray;
+        padding: 10px;
+      }
+      .director-menu:hover{
+        background-color: #36424b4e;
+        color: #025898;
+      }
+      .lined-menu{
+        background-color: #025898; 
+        color: white;
+      }
+      .elevate-color{
+        color: #025898;
+      }
+      .director-name{
+        font-size: 2rem;
+        font-weight: 600;
+      }
+      .director-details{
+        padding: 30px;
+        margin-left: 20px;
+        /* border: 2px solid red; */
+        /* margin: 0 auto; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .dir-details{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+       
+      }
+    
+      
+
 
     @media screen and (max-width: 576px) {
 
@@ -260,6 +328,7 @@
         grid-template-columns: 1fr;
 
       }
+      
       .logo{
         /* width: 100px;
         height: 100px; */
