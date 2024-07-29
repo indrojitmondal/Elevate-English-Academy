@@ -285,6 +285,10 @@
     }
     .gallery-container{
         background-image: url('../images/gallery-room-interior_1284-12776.avif');
+        background-image: url('../images/gallery-bg.png');
+        background-image: url('../images/gallery-bg2.jpeg');
+        
+        
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -331,12 +335,12 @@
         border-radius: 5px;
         background-color: #FAF9F7;
         background-color: var(--heading-bg);
-        background-color: rgba(127, 117, 117, 0.474);
+        background-color: #025798a0;
         /* background-color: #3898e19c; */
-        color: blue;
+     
         color: white;
-        color: var(--elevate-color);
-        box-shadow: 2px 2px 2px var(--elevate-color);
+        /* color: var(--elevate-color); */
+        /* box-shadow: 2px 2px 2px var(--elevate-color); */
         
         font-size: 15px;
         
@@ -398,6 +402,27 @@
         color: white;
      }
      .picnic:focus .picnic-container{
+        display: grid;
+     }
+     .class-party-container{
+        display: none;
+     }
+     .class-party:focus{
+        background-color: var(--elevate-color);
+        color: white;
+     }
+     .class-party:focus .class-party-container{
+        display: grid;
+     }
+
+     .debating-competition-container{
+        display: none;
+     }
+     .debating-competition:focus{
+        background-color: var(--elevate-color);
+        color: white;
+     }
+     .debating-competition:focus .debating-competition-container{
         display: grid;
      }
      
