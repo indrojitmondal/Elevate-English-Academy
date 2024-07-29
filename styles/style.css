@@ -5,6 +5,11 @@
 }
 
 
+    :root{
+    --elevate-color:  #025898;
+    --heading-bg: rgb(202, 198, 198);
+    }
+
     .content-container{
         width: 90%;
         margin: 0 auto;
@@ -89,7 +94,9 @@
             align-items: center;
     } */
    
-   
+    .admission-container{
+        margin: 5px;
+    }
     .banner-container{
         display: grid;
         grid-template-columns: 20% 80%;
@@ -97,6 +104,7 @@
         height: auto;
         /* height: 500px; */
         /* padding-left: 10px; */
+    
     }
     .banner-left-menu{
         background-color: white;
@@ -110,6 +118,10 @@
     
     .about-elevate{
         padding:10px;
+        border: 1px solid gray;
+    }
+    .banner-right-slide-action-container{
+        margin: 5px; 
     }
     .banner-right-slide-action-container >img{
         width: 100%;
@@ -117,11 +129,15 @@
     }
     .photo-gallery-container>img{
         width: 100%;
-        height: 100%;
+        height: 100%t;
     }
     /* .slide-bar-container{
        
     } */
+
+  
+
+ 
     .our-mission-container{
         margin-top: 20px;
         display: flex;
@@ -157,7 +173,7 @@
     }
     .footer-container{
         /* margin-top: 20px; */
-        width: 100%;
+        /* width: 100%; */
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         background-color:rgb(34,34,34);
@@ -176,11 +192,11 @@
         color: white;
         font-size: 1.3rem;
     }
-    /* .footer-bg{
-        width: 90%;
-        margin: 0 auto;
+ .footer-bg{
+        /* width: 90%;
+        margin: 0 auto; */
         background-color:rgb(34,34,34);
-    } */
+    } 
    
     .logo{
         width: 100px;
@@ -228,7 +244,7 @@
         /* display: flex;
         gap: 20px; */
         /* border: 2px solid red; */
-        border: 2px solid red;
+        /* border: 2px solid red; */
     }
   
     .course{
@@ -243,36 +259,171 @@
         margin-left: 10px;
     }
     .admission-container{
-        border: 2px solid gray;
+        border: 1px solid gray;
         background-color: rgba(220, 204, 204, 0.367);
     }
     .notice-container{
-        border: 2px solid gray;
+        /* border: 1px solid gray; */
         background-color: rgba(220, 204, 204, 0.367);
+        margin: 5px;
     }
     .photo-gallery-container{
         background-color: rgba(220, 204, 204, 0.367);
     }
     .about-container{
-        border: 2px solid gray;
+        /* border: 2px solid gray; */
         background-color: rgba(220, 204, 204, 0.367);
+        margin: 5px;
     }
     .photo-gallery-container{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap:10px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        
+    }
+    .gallery-container{
+        background-image: url('../images/gallery-room-interior_1284-12776.avif');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        /* border: 2px solid gold; */
+        height: auto;
+        overflow: auto;
+        overflow-x: hidden;
+        margin: 5px;
+
     }
     .photo-gallery-container > img{
         width: 100%;
         height: 100%;
     }
+    .photo-gallery-container{
+        display: none;
+    }
+    .photo-gallery{
+        /* background-color: #3a576a6d; */
+        /* background-color: rgba(16, 161, 16, 0.764); */
+        background-color: rgba(37, 215, 37, 0.69);
+        background-color: var(--heading-bg);
+        background-color: rgba(127, 117, 117, 0.474);
+        width: max-content;
+        height: 55px;
+        color: var(--elevate-color);
+        border: 2px solid var(--elevate-color);
+        border-radius: 5px;
+        color: white;
+     }
+     .rag-day{
+        
+       
+        margin-left: 5px;
+        /* transform: translate(5px); */
+        
+     }
+     .gallery-category{
+        padding: 10px;
+        outline: none;
+        border: 1px solid var(--elevate-color);
+        margin-top: 5px;
+        border-radius: 5px;
+        background-color: #FAF9F7;
+        background-color: var(--heading-bg);
+        background-color: #2f97e6b7;
+        color: white;
+        font-size: 15px;
+        
+     }
+     .rag-day-container{
+        position: absolute;
+        top: 43px;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 30%  33% 33% ;
+        gap:10px;
+        margin-top: 10px;
+        left: -5px;
+        left: 10px;
+        
+       
+     }
+ 
+     .rag-day-container >img{
+        width: 100%;
+        height: 100%;
+        
+     }
+     .rag-day-container{
+        display: none;
+     }
+     .rag-day:focus{
+        background-color: var(--elevate-color);
+        color: white;
+     }
+     
+     
+     .rag-day:focus .rag-day-container{
+        display: grid;
+        
+     }
+     .twenty-first-february-container{
+        display: none;
+     }
+     .twenty-first-february:focus{
+        background-color: var(--elevate-color);
+        color: white;
+     }
+     
+     .twenty-first-february:focus .twenty-first-february-container{
+        display: grid;
+        
+     }
+     
+     .class-image-container{
+        position: absolute;
+        top: 43px;
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 30%  33% 33% ;
+        gap:10px;
+        margin-top: 10px;
+        left: -5px;
+        left: 10px;
+     }
+     .class-image-container > img{
+        width: 100%;
+        height: 100%;
+     }
+     .class-image-container{
+        display: none;
+     }
+     .class-room:focus{
+        background-color: var(--elevate-color);
+        color: white;
+     }
+     .class-room:focus .class-image-container {
+        display: grid;
+
+     }
+     .list{
+        position: relative;
+        /* border: 2px solid blue; */
+        display: flex;
+        gap: 10px;
+        /* margin-left: 10px; */
+     }
+
     .content-heading{
 
         padding: 20px;
         /* margin-bottom: 10px; */
     }
     .content-span{
-        background-color: #025898; 
+        background-color: var(--elevate-color); 
         color: white; 
         padding-left: 10px;
         padding-top: 10px; 
@@ -351,6 +502,8 @@
         font-size: 2rem;
         font-weight: 600;
       }
+
+
       
      
     
