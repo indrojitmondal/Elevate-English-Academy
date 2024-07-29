@@ -331,8 +331,12 @@
         border-radius: 5px;
         background-color: #FAF9F7;
         background-color: var(--heading-bg);
-        background-color: #2390e3e4;
+        background-color: rgba(127, 117, 117, 0.474);
+        /* background-color: #3898e19c; */
+        color: blue;
         color: white;
+        color: var(--elevate-color);
+        box-shadow: 2px 2px 2px var(--elevate-color);
         
         font-size: 15px;
         
@@ -385,6 +389,16 @@
      .twenty-first-february:focus .twenty-first-february-container{
         display: grid;
         
+     }
+     .picnic-container{
+        display: none;
+     }
+     .picnic:focus{
+        background-color: var(--elevate-color);
+        color: white;
+     }
+     .picnic:focus .picnic-container{
+        display: grid;
      }
      
      .class-image-container{
