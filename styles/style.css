@@ -331,8 +331,9 @@
         border-radius: 5px;
         background-color: #FAF9F7;
         background-color: var(--heading-bg);
-        background-color: #2f97e6b7;
+        background-color: #2390e3e4;
         color: white;
+        
         font-size: 15px;
         
      }
@@ -356,8 +357,12 @@
         height: 100%;
         
      }
+     /* .rag-day{
+        background-color: var(--elevate-color);
+        color: white;
+     } */
      .rag-day-container{
-        display: none;
+        display: grid;
      }
      .rag-day:focus{
         background-color: var(--elevate-color);
