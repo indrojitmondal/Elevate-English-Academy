@@ -392,10 +392,11 @@
         background-color: rgba(37, 215, 37, 0.69);
         background-color: var(--heading-bg);
         background-color: rgba(127, 117, 117, 0.474);
+        background-color: #146cb069;
         width: max-content;
         height: 55px;
         color: var(--elevate-color);
-        border: 2px solid var(--elevate-color);
+        border: 1px solid var(--elevate-color);
         border-radius: 5px;
         color: white;
      }
@@ -415,6 +416,7 @@
         background-color: #FAF9F7;
         background-color: var(--heading-bg);
         background-color: #025798a0;
+        background-color: #146cb069;
         /* background-color: #3898e19c; */
      
         color: white;
@@ -451,10 +453,16 @@
      .rag-day-container{
         display: grid;
      }
+     .gallery-category:hover{
+        /* background-color: red; */
+        background-color: #0d50839c;
+        color: white;
+     }
      .rag-day:focus{
         background-color: var(--elevate-color);
         color: white;
      }
+     
      
      
      .rag-day:focus .rag-day-container{
