@@ -563,11 +563,13 @@
         border-radius: 5px;
     }
     .content-hr{
-        height: 2px;
+        /* height: 2px; */
         background-color: #025898;
+       
         margin-left: 44px;
         margin-top: -20px;
-        margin-bottom: 20px;
+        margin-bottom: 20px; 
+        border: 1px solid var(--elevate-color);
        
     }
     .mark{
