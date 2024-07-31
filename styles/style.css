@@ -4,10 +4,16 @@
     padding: 0;
 }
 
-
+ /* Shared styles starts here */
     :root{
     --elevate-color:  #025898;
     --heading-bg: rgb(202, 198, 198);
+    }
+    .elevate-english-academy{
+        text-align: center;
+        color: #025898;
+        font-size: 1.5rem;
+        font-weight: 800;
     }
 
     .content-container{
@@ -16,6 +22,8 @@
     
         
     }
+    /* Shared styles ends here */
+    /* header styles starts here */
     .header-container{
         width: 100%;
         /* margin: 0 auto; */
@@ -40,12 +48,7 @@
         width: 100px;
         height: 100px;
     }
-    .elevate-english-academy{
-        text-align: center;
-        color: #025898;
-        font-size: 1.5rem;
-        font-weight: 800;
-    }
+    
     
    
     .nav-container{
@@ -134,11 +137,7 @@
         /* transform: translateX(70px); */
         background-color: #1575be91;
         
-        
-    
-       
-        
-        
+  
     }
    
     .home-menu{
@@ -215,7 +214,7 @@
     } */
 
   
-
+/* 
  
     .our-mission-container{
         margin-top: 20px;
@@ -245,7 +244,7 @@
         font-size: 2rem;
         font-weight: 600;
        
-    }
+    } */
     .footer-icon-container{
         display: flex;
         gap: 30px;
