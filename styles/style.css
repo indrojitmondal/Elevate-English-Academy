@@ -224,37 +224,7 @@
     } */
 
   
-/* 
- 
-    .our-mission-container{
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        color: #025898;
-        
-    }
-    .mission-image-container{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap:10px;
-        margin-top: 20px;
-        padding: 10px;
-        background-color: rgba(112, 104, 104, 0.249);
-        
-       
-    }
-    .mission-image-container >img{
-        width: 100%;
-        height: 100%;
-        border-radius: 16px;
-    }
-    .mission-h3{
-        font-size: 2rem;
-        font-weight: 600;
-       
-    } */
+
     .footer-icon-container{
         display: flex;
         gap: 30px;
@@ -372,20 +342,9 @@
         
     }
     .gallery-container{
-        /* background-image: url('../images/gallery-room-interior_1284-12776.avif');
-        background-image: url('../images/gallery-bg.png');
-        background-image: url('../images/gallery-bg2.jpeg');
-        
-        
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover; */
+      
+        /* border: 2px solid blue; */
         position: relative;
-        /* border: 2px solid gold; */
-        height: auto;
-        overflow: auto;
-        overflow-x: hidden;
-        margin: 5px;
 
     }
     .photo-gallery-container > img{
@@ -409,18 +368,12 @@
         border-radius: 5px;
         color: white;
      }
-     .rag-day{
-        
-       
-        margin-left: 5px;
-        /* transform: translate(5px); */
-        
-     }
+     
      .gallery-category{
         padding: 10px;
         outline: none;
         border: 1px solid var(--elevate-color);
-        margin-top: 5px;
+        /* margin-top: 5px; */
         border-radius: 5px;
         background-color: #FAF9F7;
         background-color: var(--heading-bg);
@@ -433,19 +386,23 @@
         /* box-shadow: 2px 2px 2px var(--elevate-color); */
         
         font-size: 15px;
+        margin-left: 5px;
         
      }
+     
+     
      .rag-day-container{
-        position: absolute;
-        top: 43px;
+        /* position: absolute; */
+        /* margin-top: 120px; */
         width: 100%;
         height: auto;
         display: grid;
-        grid-template-columns: 30%  33% 33% ;
+        grid-template-columns: repeat(3, 1fr) ;
         gap:10px;
-        margin-top: 10px;
-        left: -5px;
-        left: 10px;
+        top: 10px;
+        padding: 10px;
+        
+        
         
        
      }
@@ -467,100 +424,14 @@
         background-color: #0d50839c;
         color: white;
      }
-     .rag-day:focus{
-        background-color: var(--elevate-color);
-        color: white;
-     }
      
      
-     
-     .rag-day:focus .rag-day-container{
-        display: grid;
-        
-     }
-     .twenty-first-february-container{
-        display: none;
-     }
-     .twenty-first-february:focus{
-        background-color: var(--elevate-color);
-        color: white;
-     }
-     
-     .twenty-first-february:focus .twenty-first-february-container{
-        display: grid;
-        
-     }
-     .picnic-container{
-        display: none;
-     }
-    
-     .picnic:focus{
-        background-color: var(--elevate-color);
-        color: white;
-     }
-     .picnic:focus .picnic-container{
-        display: grid;
-     }
-     .class-party-container{
-        display: none;
-     }
-     .class-party:focus{
-        background-color: var(--elevate-color);
-        color: white;
-     }
-     .class-party:focus .class-party-container{
-        display: grid;
-     }
-
-     .debating-competition-container{
-        display: none;
-     }
-     .debating-competition:focus{
-        background-color: var(--elevate-color);
-        color: white;
-     }
-     .debating-competition:focus .debating-competition-container{
-        display: grid;
-     }
-     
-     .class-image-container{
-        position: absolute;
-        top: 43px;
-        width: 100%;
-        height: auto;
-        display: grid;
-        grid-template-columns: 30%  33% 33% ;
-        gap:10px;
-        margin-top: 10px;
-        left: -5px;
-        left: 10px;
-     }
-     .class-image-container > img{
-        width: 100%;
-        height: 100%;
-     }
-     .class-image-container{
-        display: none;
-     }
-     .class-room:focus{
-        background-color: var(--elevate-color);
-        color: white;
-     }
-     .class-room:focus .class-image-container {
-        display: grid;
-
-     }
-     .list{
-        position: relative;
-        /* border: 2px solid blue; */
-        display: flex;
-        gap: 10px;
-        /* margin-left: 10px; */
-     }
+   
 
     .content-heading{
 
-        padding: 20px;
+        margin-left: 10px;
+        margin-top: 20px;
         /* margin-bottom: 10px; */
     }
     .content-span{
@@ -577,16 +448,16 @@
         /* height: 2px; */
         background-color: #025898;
        
-        margin-left: 44px;
-        margin-top: -20px;
-        margin-bottom: 20px; 
+        margin-left: 34px;
+        margin-top: -.5px;
+        margin-bottom: 15px; 
        
         border: 1px solid var(--elevate-color);
        
     }
     .mark{
-        /* background-color: white; */
-        color: #025898;
+        background-color: #0667b17e ;
+        color: white;
         /* color: red; */
         /* border-radius: 16px; */
     }
@@ -755,37 +626,80 @@
         /* overflow: auto;
         overflow-x: hidden; */
      }
+     .rag-day-button{
+        margin-left: 10px;
+     }
     
-      
-
-
-    @media screen and (max-width: 576px) {
-
-        .nav-container{
-            display: flex;
-            justify-content: stretch;
-            gap: 40px;
-        }
-       .nav-left >h3{
+    .rag-day-container{
         display: none;
-       }
-       .footer-container{
-        /* display: grid; */
-      
-        grid-template-columns: 1fr;
-
-      }
-      
-      .logo{
-        /* width: 100px;
-        height: 100px; */
-        margin-left: 0;
-       }
-       .paikgacha{
-        font-size: 1rem;
-       }
-
-        
     }
+    .all-image-container{
+        display: grid;
+    }
+   
+    .gallery-category:focus{
+        background-color: #0d50839c;
+        color: white;
+     }
+    
+     .rag-day-button:focus ~ .rag-day-container{
+        display: grid;
+        
+     }
+     .rag-day-button:focus ~ .all-image-container{
+        display: none;
+        
+     }
+     
+     .classRoom-container{
+        display: none;
+     }
+     .classRoom-button:focus ~ .classRoom-container{
+        display: grid;
+     }
+     .classRoom-button:focus ~ .all-image-container{
+        display: none;
+     }
+     .twentyFirst-container{
+        display: none;
+     }
+     .twentyFirst-button:focus .twentyFirst-container{
+        display: grid;
+     }
+     .twentyFirst-button:focus .all-image-container{
+        display: none;
+     }
+
+
+     .picnic-container{
+        display: none;
+     }
+     .picnic-button:focus ~ .picnic-container{
+        display: grid;
+     }
+     .picnic-button:focus ~ .all-image-container{
+        display: none;
+     }
+     .classParty-container{
+        display: none;
+     }
+     .classParty-button:focus ~ .classParty-container{
+        display: grid;
+     }
+     .classParty-button:focus ~ .all-image-container{
+        display: none;
+     }
+
+     .debatingCompetition-container{
+        display: none;
+     }
+     .debatingCompetition-button:focus ~ .debatingCompetition-container{
+        display: grid;
+     }
+     .debatingCompetition-button:focus ~ .all-image-container{
+        display: none;
+     }
+
+    
 
     
