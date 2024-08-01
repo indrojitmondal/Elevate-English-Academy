@@ -372,14 +372,14 @@
         
     }
     .gallery-container{
-        background-image: url('../images/gallery-room-interior_1284-12776.avif');
+        /* background-image: url('../images/gallery-room-interior_1284-12776.avif');
         background-image: url('../images/gallery-bg.png');
         background-image: url('../images/gallery-bg2.jpeg');
         
         
         background-repeat: no-repeat;
         background-position: center;
-        background-size: cover;
+        background-size: cover; */
         position: relative;
         /* border: 2px solid gold; */
         height: auto;
