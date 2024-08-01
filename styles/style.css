@@ -685,6 +685,7 @@
         border: 1px solid gray;
         padding: 8px;
         font-size: 15px;
+        
       }
       .read-more a{
         color: black;
@@ -715,6 +716,15 @@
         padding-left: 2px;
         color: var(--elevate-color);
         font-size: 1.3rem;
+      }
+      .elevate-in-press{
+        border: 1px solid var(--elevate-color);
+        background-color: aliceblue;
+      }
+      .press-notice, .read-more{
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
       }
       
      
