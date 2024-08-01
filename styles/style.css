@@ -196,14 +196,24 @@
     
     .about-elevate{
         padding:10px;
+        /* border: 1px solid gray; */
+        font-size: 15px;
+    }
+    .banner-left{
+        width: 100%;
+        height: 520px;
         border: 1px solid gray;
+       margin-top: 5px; 
     }
     .banner-right-slide-action-container{
         margin: 5px; 
+        width: 100%;
+        height: 520px;
+        /* border: 2px solid red; */
     }
     .banner-right-slide-action-container >img{
         width: 100%;
-        height: 550px;
+        height: 100%;
     }
     .photo-gallery-container>img{
         width: 100%;
@@ -483,6 +493,7 @@
      .picnic-container{
         display: none;
      }
+    
      .picnic:focus{
         background-color: var(--elevate-color);
         color: white;
@@ -618,6 +629,7 @@
     .director-menu {
         border: 1px solid gray;
         padding: 10px;
+        font-size: 1rem;
         
       }
       .director-menu:hover{
