@@ -580,6 +580,7 @@
         margin-left: 44px;
         margin-top: -20px;
         margin-bottom: 20px; 
+       
         border: 1px solid var(--elevate-color);
        
     }
@@ -727,7 +728,33 @@
         border-bottom: none;
       }
       
-     
+     .download-img{
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top:50%;
+        left: 30%;
+     }
+     .notice-table{
+        width: 100%;
+        
+        border-collapse: collapse;
+        
+        border: 1px solid gray;
+     }
+     tr,td{
+        border: 1px solid gray;
+       
+     }
+     td{
+        padding: 10px;
+     }
+     .table-container{
+        border: 1px solid gray;
+        padding: 10px;
+        /* overflow: auto;
+        overflow-x: hidden; */
+     }
     
       
 
