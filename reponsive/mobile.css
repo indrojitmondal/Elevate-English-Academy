@@ -80,7 +80,7 @@
         
     }
     .director-image{
-        width: auto;
+        width: 100%;
         height:auto;
         /* border: 2px solid green; */
         display: block;
