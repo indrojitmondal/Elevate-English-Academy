@@ -36,8 +36,33 @@
     .home-menu{
         font-size: 15px;
     }
+    .menu{
+
+        box-sizing: border-box;
+       
+
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
     .banner-container{
         grid-template-columns: 1fr;
+        
+        width: 100%;
+      
+    }
+    .elevate-director-container{
+        
+        display: block;
+        
+    }
+    .director-image{
+        width: auto;
+        height:auto;
+        /* border: 2px solid green; */
+        display: block;
+        margin: 0 auto;
     }
     .footer-container{
     
