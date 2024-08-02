@@ -14,21 +14,13 @@
     .nav-container{
        
         width: 100%;
-        /* margin: 0 auto; */
         padding-top: 10px;
         background-color: rgb(202, 198, 198);
-
-        /* display: grid;
-        grid-template-columns: 20% 80%;
-        align-items: center; */
 
         display: grid;
         grid-template-columns: 1fr; 
         
-        /* justify-content: space-between;
-        align-items: center; */
-        
-       /* border: 2px solid red; */
+ 
        margin: 0;
     }
     .header-container{
@@ -94,6 +86,21 @@
         display: block;
         margin: 0 auto;
     }
+    .dir-details{
+        display: block;
+
+        width: 100%;
+        margin: 0 auto;
+        
+
+        padding: 10px;
+
+        text-align: center;
+
+        
+        
+      
+     }
     .footer-container{
     
         grid-template-columns: 1fr;
