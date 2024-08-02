@@ -57,8 +57,12 @@
         padding-top: 10px;
         background-color: rgb(202, 198, 198);
 
-        display: flex;
-       
+        /* display: grid;
+        grid-template-columns: 20% 80%;
+        align-items: center; */
+
+        display: flex; 
+        
         justify-content: space-between;
         align-items: center;
         
@@ -80,6 +84,8 @@
         border: none;
         background-color: #1575be91;
         padding-top: 10px;
+        /* border: 2px solid red; */
+        
         
     }
     .headline{
